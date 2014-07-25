@@ -2,7 +2,7 @@
 
 #vbx-main {
     padding: 5px;
-    background-color: #333;
+    background-color: #FFF;
 }
 
 
@@ -58,7 +58,7 @@
     padding: 0 5px;
     font-size: 25px;
     font-weight: bold;
-    color: #FFF;
+    color: #333;
 }
 
 
@@ -74,7 +74,7 @@
 .vbx-table-section {
 	min-height: 500px;
     padding: 0;
-    background-color: #DDD;
+    background-color: #FFF;
     overflow: auto;
 }
 
@@ -116,11 +116,12 @@
 /* Content Menu */
 
 .vbx-content-menu {
-    background-color: #333;
+    background-color: #FFF;
     overflow: auto;
 }
 
 .vbx-content-menu-top {
+	backround-color: #DDD;
 	padding-bottom: 5px;
 }
 
@@ -180,7 +181,7 @@
     height: 32px;
     margin-right: 10px;
     padding-right: 15px;
-    background: url(../i/button-bg.png) no-repeat right -96px;
+    background: url(../i/delete-button.png) no-repeat right -96px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -188,6 +189,9 @@
 .vbx-content-menu .menu-item a.dropdown-select-button {
     padding-right: 28px;
     background: url(../i/dropdown-select-button-bg.png) no-repeat right -96px;
+}
+.dropdown-select-button:visited {
+	color: #fff;
 }
 
 .vbx-content-menu .menu-item a.link-button:hover {
@@ -202,12 +206,15 @@
     display: block;
     line-height: 32px;
     padding-left: 15px;
-    background: url(../i/button-bg.png) no-repeat left top;
+    background: url(../i/delete-button.png) no-repeat left top;
 }
 
 .vbx-content-menu .menu-item a.dropdown-select-button span {
-    padding-left: 28px;
+    padding-left: 15px;
     background: url(../i/dropdown-select-button-bg.png) no-repeat left top;
+}
+.delete-button:visited {
+	color: #fff;
 }
 
 .vbx-content-menu .menu-item a.link-button:hover span {
@@ -239,7 +246,7 @@
 
 .vbx-content-tabs {
 	padding-top: 5px;
-	background-color: #333;
+	background-color: #E6E6E6 ;
     overflow: auto;
 }
 

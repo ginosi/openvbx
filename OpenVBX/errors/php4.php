@@ -48,9 +48,6 @@ include('OpenVBX/config/constants.php');
 
 			</div><!-- #bd .error-404 -->
 
-			<div id="ft">
-			<p class="copyright">OpenVBX &bull; <em>v</em><?php echo $config['version']; ?> &mdash; Powered by <a href="http://twilio.com/">Twilio Inc.</a> &bull; <a href="http://www.twilio.com/legal/tos">Terms</a> &bull; <a href="http://www.twilio.com/legal/privacy">Privacy</a></p>
-			</div><!-- #ft -->
 		</div><!-- #wrapper -->
 	</div><!-- #doc3 -->
 </body>

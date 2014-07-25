@@ -21,9 +21,9 @@
 	padding: 0 26px 0 12px;
 	font-size: 14px;
 	font-weight: bold;
-	color: #999;
-	background: #404040 url(../i/vbx-client-status.png) 65px -34px no-repeat;
-	border: 1px solid #505050;
+	color: #FFF;
+	background: #d9534f url(../i/vbx-client-status.png) 65px -34px no-repeat;
+	border: 1px solid #EC7572;
 }
 
 #vbx-client-status .client-button-wrap {
@@ -39,7 +39,7 @@
 #vbx-client-status.online .client-button {
 	color: #FFF;
 	border-color: #7FCC5A;
-    background-color: #53A82B;
+    background-color: #5cb85c;
     background-color: -moz-linear-gradient(100% 100% 90deg, #448723, #53A82B);
     background-color: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#53A82B), to(#448723));
 	background-position: 65px -2px;

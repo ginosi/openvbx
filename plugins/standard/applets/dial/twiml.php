@@ -13,7 +13,7 @@ $dialer = new TwimlDial(array(
 	'transcribe' => $transcribe,
 	'voice' => $voice,
 	'language' => $language,
-	'sequential' => true,
+	'sequential' => false,
 	'timeout' => $timeout
 ));
 $dialer->set_state();

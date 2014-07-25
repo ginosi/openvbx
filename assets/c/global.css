@@ -39,6 +39,7 @@
 
 /* Footer */
 
+
 #ft {
     height: 200px;
     margin-top: 20px;
@@ -47,12 +48,11 @@
 }
 
 .copyright {
-    padding: 10px;
-    font-size: 12px;
-    color: #777;
+    padding: 0px;
+    font-size: 0px;
+    color: #FFF;
     text-align: center;
 }
-
 
 /* Standard Icons */
 
