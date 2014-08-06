@@ -332,7 +332,7 @@ $config['encryption_key'] = "";
 |
 */
 $config['sess_cookie_name']		= 'openvbx_session';
-$config['sess_expiration']		= 7200;
+$config['sess_expiration']		= 43200;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
 $config['sess_table_name']		= 'sessions';
