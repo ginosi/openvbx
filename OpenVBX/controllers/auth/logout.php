@@ -32,7 +32,6 @@ class Logout extends MY_Controller
 
 		$ci =& get_instance();
 		$ci->cache->enabled(false);
-		
 		$this->user_id = $this->session->userdata('user_id');
 	}
 

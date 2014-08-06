@@ -34,7 +34,6 @@ class Login extends MY_Controller
 		// no cache
 		$ci =& get_instance();
 		$ci->cache->enabled(false);
-
 		$this->user_id = $this->session->userdata('user_id');
 	}
 
