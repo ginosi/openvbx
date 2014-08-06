@@ -30,7 +30,6 @@ class Iframe extends User_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		
 		$this->twilio_js_baseurl = 'http'.(is_ssl() ? 's' : '').'://static.twilio.com';
 		$this->twilio_js_file = 'twilio'.
 							($this->config->item('use_unminimized_js') ? '' : '.min').'.js';
@@ -40,7 +39,7 @@ class Iframe extends User_Controller {
 		$data = $this->init_view_data();
 		$data = array_merge($data, array(
 			'site_title' => 'OpenVBX',
-			'iframe_url' => site_url('/messages'),
+			'iframe_url' => site_url('/p/calls'),
 			'users' => $this->get_users(),
 			'twilio_js' => $this->twilio_js_baseurl.'/libs/twiliojs/1.1/'.$this->twilio_js_file,
 			'client_capability' => null
@@ -66,7 +65,6 @@ class Iframe extends User_Controller {
 		
 		$data['site_rev'] = $this->config->item('site_rev');
 		$data['browserphone'] = $this->init_browserphone_data($data['callerid_numbers']);
-		
 		$this->load->view('iframe', $data);
 	}
 	
