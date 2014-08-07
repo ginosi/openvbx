@@ -1,4 +1,5 @@
 OpenVBX/config/*-local.php
+OpenVBX/config/database.php
 system/logs/*.php
 apc.php
 info.php
