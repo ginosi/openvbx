@@ -152,7 +152,7 @@ class MY_Controller extends Controller
 
 			$css_assets = (!empty($this->css_assets) ? $this->css_assets : 'css');
 			if ($this->config->item('use_unminimized_css'))
-			{				
+			{
 				$styles = $this->get_assets_list($css_assets);
 				if (is_array($styles)) {
 					foreach ($styles as $style)

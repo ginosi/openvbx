@@ -103,25 +103,6 @@ button.call-button:active span, button.call-button-active span {
     color: #222;
 }
 
-
-
-button.sms-button, button.send-sms-button {
-    padding: 0 33px 0 0;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    background: transparent url(../i/sms-button-bg.png) no-repeat right -96px;
-}
-
-button.sms-button span, button.send-sms-button span {
-    height: 32px;
-    line-height: 32px;
-    padding-left: 10px;
-    margin-left: -2px;
-    background: transparent url(../i/sms-button-bg.png) no-repeat left top;
-    color: #444;
-}
-
 button.sms-button:hover, button.sms-button-hover { /* the redundant class is used to apply the hover state with a script */
     background-position: right -128px;
 }

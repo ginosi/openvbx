@@ -1,7 +1,7 @@
 <div class="vbx-content-main">
 
 	<div class="vbx-content-menu vbx-content-menu-top">
-		<h2 class="vbx-content-heading">Voicemail</h2>
+		<h2>Voicemail</h2>
 	</div><!-- .vbx-content-menu -->
 
 	<div class="voicemail-blank <?php echo empty($voicemail_say) && empty($voicemail_play)? '' : 'hide' ?>">

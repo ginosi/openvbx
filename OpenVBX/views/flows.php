@@ -13,7 +13,7 @@
 		<?php if(!empty($items)): ?>
 
 		<div class="vbx-table-section">
-		<table id="flows-table" class="vbx-items-grid">
+		<table id="flows-table" class="table table-bordered table-striped table-condensed">
 			<thead>
 				<tr class="items-head">
 					<th class="flow-name">Name</th>
@@ -41,7 +41,7 @@
 					<?php endif; ?>
 					<td><a href="<?php echo site_url("flows/edit/{$item['id']}"); ?>#flowline/start"><?php echo is_null($item['voice_data'])? 'Create' : 'Edit' ?> Call Flow</a></td>
 					<td><a href="<?php echo site_url("flows/sms/{$item['id']}"); ?>#flowline/start"><?php echo is_null($item['sms_data'])? 'Create' : 'Edit' ?> SMS Flow</a></td>
-					<td class="flow-delete"><a href="flows/edit/<?php echo $item['id'];?>" class="trash action" title="Delete"><span class="replace">Delete</span></a></td>
+					<td class="text-center"><a href="flows/edit/<?php echo $item['id'];?>" class="trash" title="Delete"><span class="glyphicon glyphicon-trash"></span></a></td>
 				</tr>
 				<?php endforeach; ?>
 			</tbody>

@@ -17,6 +17,7 @@ $jquery_validate = '../j/plugins/jquery.validate.js';
 $sources = array(
 	'css' => array(
 		'../c/reset-fonts-grids-2.8.css',
+        '../c/bootstrap.min.css',
 		'../c/global.css',
 		'../c/login.css',
 		'../c/utility-menu.css',

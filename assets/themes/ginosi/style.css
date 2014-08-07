@@ -279,5 +279,6 @@ button.sms-button:active span, button.sms-button-active span {
     background: url(images/assign-owner-button-bg.png) no-repeat right top;
 }
 
-
-
+.application-container {
+    display: none !important;
+}

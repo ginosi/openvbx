@@ -32,13 +32,13 @@
 
 	<!-- content_header -->
 	<?php echo $content_header; ?>
-
+<div class="row">
 	<!-- content_main -->
 	<?php echo $content_main; ?>
 
 	<!-- content_sidebar -->
 	<?php echo $content_sidebar; ?>
-
+</div>
 	<!-- content_footer -->
 	<?php echo $content_footer; ?>
 

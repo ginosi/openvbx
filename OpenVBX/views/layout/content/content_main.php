@@ -1,5 +1,5 @@
-				<div id="yui-main">
-						<div class="<?php echo $layout_override ?> yui-b">
+				<div class="col-sm-10 pull-right">
+						<div>
 								<div id="vbx-main">
 									<div class="vbx-content-banner info-banner hide">
 										<a href="" class="close action"><span class="replace">Close</span></a>
