@@ -2,7 +2,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'toxindzners';
+$db['default']['password'] = '9uO9hWoYj#Lz';
 $db['default']['hostname'] = 'localhost';
 $db['default']['database'] = 'OpenVBX';
 $db['default']['dbdriver'] = 'mysqli';
